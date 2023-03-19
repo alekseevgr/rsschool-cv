@@ -1,5 +1,5 @@
 # Grigorii Alekseev
-![GrigoriiAlekseev](alekseev.jpg "GrigoriiAlekseev")
+<img src="alekseev.jpg" width="500">
 ********* 
 https://github.com/alekseevgr
 ## Contacts
