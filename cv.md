@@ -1,14 +1,21 @@
 # Grigorii Alekseev
 ![GrigoriiAlekseev](alekseev.jpg "GrigoriiAlekseev")
 ********* 
-
+https://github.com/alekseevgr
 ## Contacts
+
 Location: Astana, Kazakhstan
+
 Phone: +7 705 539 71 93
+
 Email: alekseevgr2@gmail.com
-GitHub: alekseevgr
+
+GitHub: [alekseevgr]( https://github.com/alekseevgr )
+
 Telegram: alekseevgr
+
 Discord RS: alekseevgr#4232
+
 ********* 
 ## About me
 
