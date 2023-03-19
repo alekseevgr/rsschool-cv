@@ -58,14 +58,14 @@ In the IT field, this is the most important point, especially for a novice speci
 Completed 2 educational projects at Hexlet online school. Links attached in code example.
 
 #### Used technologies:
-JavaScript
-Node.js
-ESLint
-readline-sync
-GitHub Actions (CI)
-Jest
-Lodash, commander.js
+- JavaScript
+- Node.js
+- ESLint
+- readline-sync
+- GitHub Actions (CI)
+- Jest
+- Lodash, commander.js
 
 ## Languages:
-English: А2 
-Russian: native
+- English: А2 
+- Russian: native
