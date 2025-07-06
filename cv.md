@@ -1,5 +1,5 @@
 # Grigorii Alekseev
-<img src="/src/alekseev.jpg" width="100">
+<img src="./src/alekseev.jpg" width="100">
 
 
 ## Contacts
