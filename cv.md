@@ -49,6 +49,9 @@ Completed 3 educational projects at Hexlet online school. Links attached in code
 #### Used technologies:
 - JavaScript
 - Node.js
+- React
+- Vite
+- HTML, CSS
 - ESLint
 - readline-sync
 - GitHub Actions (CI)
