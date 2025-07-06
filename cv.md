@@ -1,6 +1,5 @@
 # Grigorii Alekseev
-<img src="./src/alekseev.jpg" width="100">
-
+<img src="https://github.com/alekseevgr/rsschool-cv/blob/gh-pages/src/alekseev.jpg?raw=true" width="100">
 
 ## Contacts
 
