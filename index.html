@@ -1,34 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Grigorii Alekseev, CV</title>
   </head>
   <body>
     <header>
-      <h1>CV Grigorii Alekseev</h1>
-      <img src="src/alekseev.jpg" alt="photo alekseev">
-      <section>
-        <h1>Contacts</h1>
-      </section>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#language" class="nav-link">Language</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <h2>About me</h2>
-        <p>text</p>
+      <section class="container section-profile" id="profile">
+        <section class="section photo-wrapper">
+          <img src="./assets/alekseev.jpg" alt="photo profile" />
+        </section>
+        <section class="section profile-name">
+          <h1 class="section-title">Grigorii Alekseev</h1>
+          <h2>Frontend developer</h2>
+        </section>
       </section>
-      <section>
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Code Example</h2>
-      </section>
+      <div class="container main-container">
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li>Location: Astana, Kazakhstan</li>
+            <li>Phone: +7 705 539 71 93</li>
+            <li>Email: alekseevgr2@gmail.com</li>
+            <li><a href="https://github.com/alekseevgr">GitHub</a></li>
+            <li>Telegram: alekseevgr</li>
+            <li>Discord RS: Grigorii Alekseev (@alekseevgr)</li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">About me</h2>
+          <p>
+            My background in sales and quality management strengthens my
+            approach to development: I can analyze tasks, consider multiple
+            factors, communicate clearly, and follow through on goals. I’m
+            genuinely passionate about programming, I often get fully immersed
+            in complex problems, enjoy testing different solutions, and feel
+            real satisfaction when I find the right one. That’s what drives me
+            to keep growing.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>Frontend: JavaScript, CSS, React, TypeScript, HTML, Node.js</li>
+            <li>Tools: Git, GitHub, Jest, React Testing Library, Vite</li>
+            <li>
+              Additional: Sass/SCSS, ESLint, Prettier, CI/CD (GitHub Actions)
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="codeExample">
+          <h2 class="section-title">Code Example</h2>
+          <pre><code>
+function isPalindrome(phrase) {
+    let newPhrase = phrase.toLowerCase().replace(/[^а-яё]/g, '');
+    let reverseString = newPhrase.split('').reverse().join('');
+    
+    return newPhrase === reverseString;
+}
+</code></pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul>
+            <li>Hexlet Code Basics</li>
+            <li>rscchool(Started training)</li>
+            <li>Codewars 5 kyu</li>
+          </ul>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/alekseevgr/frontend-project-lvl1"
+                >Brain games</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/alekseevgr/frontend-project-46"
+                >JSON Diff Tool</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/alekseevgr/tic-tac-toe"
+                >Tic-tac-toe game</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="language">
+          <h2 class="section-title">Language</h2>
+          <ul>
+            <li>English: А2</li>
+            <li>French: B1</li>
+            <li>Russian: native</li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Hexlet Frontend developer(90%)</p>
+        </section>
+        
+      </div>
     </main>
+    <footer>
+      <div class="container footer-container">
+        <section class="footer-left">
+          <span>© 2025</span>
+          <a href="https://github.com/alekseevgr/"> alekseevgr </a>
+        </section>
+        <section class="footer-right">
+          <a href="https://rs.school/courses/javascript-ru">
+            <img src="assets/rs-school-logo.svg" alt="logo" />
+          </a>
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
