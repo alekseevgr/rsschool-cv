@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto-Regular.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1c1c1c;
+    background-color: #fdfdfd;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    flex-direction: row;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+}
+
+.nav-item a {
+    color: #7289da;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #303f9f;
+    border-bottom: 1px solid #3f51b5;
+}
+
+header {
+    background-color: #f5f5f5;
+}
+
+a {
+  color: #1e3a8a;
+  text-decoration: none;
+}
+a:hover {
+  color: #0d1c5e;
+  text-decoration: underline;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-profile {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 10px solid #aab8ec;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #3f51b5;
+}
+
+.section {
+    width: 50%;
+}
+.main-container .section {
+    border-bottom: 1px solid #aab8ec;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left span {
+    color: #666
+}
+.footer-left a {
+    color: #1e3a8a;
+}
+
+.photo-wrapper {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.photo-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+code {
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2e2e2e; 
+  background: none;
+  padding: 0;
+  border: none;
+  display: block;
+  white-space: pre-wrap;
+}
