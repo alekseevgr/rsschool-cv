@@ -37,19 +37,23 @@
       </div>
     </header>
     <main>
-      <div class="container main-container">
-        <section class="section section-profile" id="profile">
-          <h1 class="section-title">Grigorii Alekseev</h1>
-          <h2>Frontend developer</h2>
+      <section class="container section-profile" id="profile">
+        <section class="section photo-wrapper">
           <img src="./assets/alekseev.jpg" alt="photo profile" />
         </section>
+        <section class="section profile-name">
+          <h1 class="section-title">Grigorii Alekseev</h1>
+          <h2>Frontend developer</h2>
+        </section>
+      </section>
+      <div class="container main-container">
         <section class="section" id="contacts">
           <h2 class="section-title">Contacts</h2>
           <ul>
             <li>Location: Astana, Kazakhstan</li>
             <li>Phone: +7 705 539 71 93</li>
             <li>Email: alekseevgr2@gmail.com</li>
-            <li><a href="https://github.com/alekseevgr ">GitHub</a></li>
+            <li><a href="https://github.com/alekseevgr">GitHub</a></li>
             <li>Telegram: alekseevgr</li>
             <li>Discord RS: Grigorii Alekseev (@alekseevgr)</li>
           </ul>
@@ -72,14 +76,32 @@
             <li>Frontend: JavaScript, CSS, React, TypeScript, HTML, Node.js</li>
             <li>Tools: Git, GitHub, Jest, React Testing Library, Vite</li>
             <li>
-              Additional: Sass/SCSS, PostCSS, ESLint, Prettier, Tailwind CSS,
-              CI/CD (GitHub Actions)
+              Additional: Sass/SCSS, ESLint, Prettier, CI/CD (GitHub Actions)
             </li>
+          </ul>
+        </section>
+        <section class="section" id="codeExample">
+          <h2 class="section-title">Code Example</h2>
+          <pre><code>
+function isPalindrome(phrase) {
+    let newPhrase = phrase.toLowerCase().replace(/[^а-яё]/g, '');
+    let reverseString = newPhrase.split('').reverse().join('');
+    
+    return newPhrase === reverseString;
+}
+</code></pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul>
+            <li>Hexlet Code Basics</li>
+            <li>rscchool(Started training)</li>
+            <li>Codewars 5 kyu</li>
           </ul>
         </section>
         <section class="section" id="projects">
           <h2 class="section-title">Projects</h2>
-          <ol>
+          <ul>
             <li>
               <a href="https://github.com/alekseevgr/frontend-project-lvl1"
                 >Brain games</a
@@ -95,13 +117,6 @@
                 >Tic-tac-toe game</a
               >
             </li>
-          </ol>
-        </section>
-        <section class="section" id="courses">
-          <h2 class="section-title">Courses</h2>
-          <ul>
-            <li>Hexlet Frontend developer(90%)</li>
-            <li>rscchool(Started training)</li>
           </ul>
         </section>
         <section class="section" id="language">
@@ -109,11 +124,28 @@
           <ul>
             <li>English: А2</li>
             <li>French: B1</li>
-            <li>ussian: native</li>
+            <li>Russian: native</li>
           </ul>
         </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Hexlet Frontend developer(90%)</p>
+        </section>
+        
       </div>
     </main>
-    <footer><div class="container">footer</div></footer>
+    <footer>
+      <div class="container footer-container">
+        <section class="footer-left">
+          <span>© 2025</span>
+          <a href="https://github.com/alekseevgr/"> alekseevgr </a>
+        </section>
+        <section class="footer-right">
+          <a href="https://rs.school/courses/javascript-ru">
+            <img src="assets/rs-school-logo.svg" alt="logo" />
+          </a>
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
