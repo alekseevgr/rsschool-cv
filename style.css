@@ -94,11 +94,16 @@ a:hover {
     letter-spacing: 5px;
     color: #3f51b5;
 }
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+}
 
 .section {
     width: 50%;
 }
 .main-container .section {
+    width: 50%;
     border-bottom: 1px solid #aab8ec;
 }
 
@@ -134,13 +139,10 @@ img {
 }
 
 code {
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  padding: 10px;
   font-family: monospace;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #2e2e2e; 
-  background: none;
-  padding: 0;
-  border: none;
   display: block;
   white-space: pre-wrap;
 }
