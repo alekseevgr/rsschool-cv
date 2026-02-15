@@ -40,20 +40,19 @@ body {
 }
 
 .nav-link {
-    padding: 0 20px;
+    padding: 0;
     line-height: 50px;
-    transition: 0.3s;
 }
 
-.nav-item a {
-    color: #7289da;
-    text-decoration: none;
-    transition: color 0.5s;
+.nav-item {
+    padding: 0 20px;
 }
 
 .nav-item a:hover {
     color: #303f9f;
-    border-bottom: 1px solid #3f51b5;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
 }
 
 header {
@@ -61,17 +60,19 @@ header {
 }
 
 a {
-  color: #1e3a8a;
-  text-decoration: none;
+    color: #1e3a8a;
+    text-decoration: none;
 }
+
 a:hover {
-  color: #0d1c5e;
-  text-decoration: underline;
+    color: #0d1c5e;
+    text-decoration: underline;
 }
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 .main-container {
@@ -94,14 +95,16 @@ a:hover {
     letter-spacing: 5px;
     color: #3f51b5;
 }
+
 .subtitle {
-  font-size: 24px;
-  font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .section {
     width: 50%;
 }
+
 .main-container .section {
     width: 50%;
     border-bottom: 1px solid #aab8ec;
@@ -122,27 +125,74 @@ img {
 .footer-left span {
     color: #666
 }
+
 .footer-left a {
     color: #1e3a8a;
 }
 
 .photo-wrapper {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  overflow: hidden;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
 }
+
 .photo-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 code {
-  background-color: #f4f4f4;
-  border-radius: 4px;
-  padding: 10px;
-  font-family: monospace;
-  display: block;
-  white-space: pre-wrap;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: monospace;
+    display: block;
+    white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .section-title {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .main-container .section {
+        width: 100%;
+    }
+
+    .nav-list {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    .nav-link {
+        padding: 0 10px;
+        line-height: 40px;
+    }
+
+    .section-profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+        padding: 16px 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px 0;
+        text-align: center;
+    }
+
+
 }
